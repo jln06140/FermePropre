@@ -25,7 +25,7 @@ public class Fermier {
 	public static char lanceDe() {
 		char zone = ' ';
 	    final String alphabet = "ABCD";
-		int face=(int) (Math.random()*3);
+		int face=(int) (Math.random()*4);
 
 	    for (int i = 0; i < alphabet.length(); i++) {
 	        zone = alphabet.charAt(face);
